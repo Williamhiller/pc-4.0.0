@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文章内容</title>
+    <link rel="stylesheet" href="../../public/css/commons/reset.css">
+    <link rel="stylesheet" href="../../public/css/commons/font.css">
+    <link rel="stylesheet" href="../../public/css/commons/globle.css">
+    <!--<link rel="stylesheet" href="../../public/css/editor.css">-->
+    <link rel="stylesheet" href="../../public/font/icon_notIE.css">
+    <link rel="stylesheet" href="../../public/css/new_article.css">
+
+    <script src="../../public/libs/jquery/jquery-2.0.3.min.js"></script>
+    <script src="../../public/js/extend.js"></script>
+    <script src="../../public/libs/ueditor/ueditor.config.js"></script>
+    <script src="../../public/libs/ueditor/ueditor.all.js"></script>
+</head>
+<body>
+<ol class="breadcrumb clear">
+    <li><a href="javascript:">文章</a></li>
+    <li>&gt; 写文章</li>
+</ol>
+<div class="wrapper-box">
+    <div class="wrapper clear">
+        <form action="" class="left-cup">
+            <!--上传图片-->
+            <div class="detailed-banner">
+                <img id="showImg" style="display:block;;" src="../../public/img/one.jpg" alt="">
+                <div class="upload-img">
+                    <input type="file" value="上传封面图" id="fileToUpload" name="fileToUpload">
+                    <span><i class="plus"> </i><a href="javascript:;">点击</a>上传文章头图（建议头图尺寸为900x500px或以上）</span>
+                </div>
+            </div>
+
+            <div class="title-box">
+                <input type="text" id="articleTitle" name="title" placeholder="输入文章标题（限2-64个字符内）">
+            </div>
+            <script id="ueditor" name="ueditor"  type="text/plain">
+                初始化内容
+            </script>
+            <div class="edit-btn-box">
+                <input type="button" value="提交" name="submit" class="submit-btn btn">
+                <input type="button" value="保存" class="save-btn btn-gray"/>
+            </div>
+        </form>
+        <div class="right-cup">
+            <h3>注：</h3>
+            <p>了解并熟悉投稿流程和审核要求，如果您对原创投稿有任何疑问或者建议，欢迎发送邮件至****************</p>
+        </div>
+    </div>
+</div>
+
+<script>
+    var ue = UE.getEditor('ueditor');
+</script>
+</body>
+</html>

@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta  http-equiv="X-UA-Compatible" content="IE-edge,chrome=1">
+    <!--[if lt IE 9]>
+    <script type="text/javascript">
+        alert("您的浏览器版本太低了，本站对IE10以下版本浏览器无法提供支持，为保证更好的浏览体验，请升级您的IE或下载其它浏览器。推荐Chrome, Firefox!");
+        window.close();
+    </script>
+    <![endif]-->
+    <title>首页</title>
+    <link rel="stylesheet" href="../public/css/commons/reset.css">
+    <link rel="stylesheet" href="../public/css/commons/font.css">
+    <link rel="stylesheet" href="../public/css/commons/globle.css">
+    <link rel="stylesheet" href="../public/libs/swiper/swiper-3.3.1.min.css">
+    <link rel="stylesheet" href="../public/css/index.css">
+</head>
+<body>
+
+<nav>
+    <div class="nav-content font24">
+        <div class="left clear">
+            <a class="logo" href="javascript:">
+                <img src="../public/img/logo.png" alt="logo">
+            </a>
+            <ul class="clear">
+                <li><a href="javascript:void(0)">首页</a></li>
+                <li><a href="javascript:void(0)">赛事</a></li>
+                <li><a href="javascript:void(0)">旅行</a></li>
+                <li><a href="javascript:void(0)">文章</a></li>
+            </ul>
+        </div>
+        <div class="right font20">
+            <ul>
+                <li class="nav-search">
+                    <input type="text" placeholder="搜索关键字">
+                    <span class="icon-search"></span>
+                </li>
+                <li><a href="javascript:void(0)" class="log-in">登录</a></li>
+                <li><a class="line"></a></li>
+                <li><a href="javascript:void(0)" class="">注册</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div id="carousel">
+    <div id="leftMask"></div>
+    <div id="rightMask"></div>
+    <div id="prevBtn">
+        <span class="icon-arrow-left"></span>
+    </div>
+    <div id="nextBtn">
+        <span class="icon-arrow-right"></span>
+    </div>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img class="scale" src="../public/img/view_three.jpg" alt="42trip">
+            </div>
+            <div class="swiper-slide">
+                <img class="scale" src="../public/img/view_two.jpg" alt="42trip">
+            </div>
+            <div class="swiper-slide">
+                <img class="scale" src="../public/img/view_two.jpg" alt="42trip">
+            </div>
+            <div class="swiper-slide">
+                <img class="scale" src="../public/img/view_one.jpg" alt="42trip">
+            </div>
+            <div class="swiper-slide">
+                <img class="scale" src="../public/img/view_three.jpg" alt="42trip">
+            </div>
+            <div class="swiper-slide">
+                <img class="scale" src="../public/img/view_two.jpg" alt="42trip">
+            </div>
+            <div class="swiper-slide">
+                <img class="scale" src="../public/img/view_one.jpg" alt="42trip">
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+</div>
+
+<div class="match-content">
+    <div class="content font16">
+        <form class="search clear">
+            <input type="text"  class="font16">
+            <button type="submit" class="font24">搜索</button>
+            <div class="placeholder c666"><i class="icon-point"></i>选择目的地/跑步赛事</div>
+            <div class="search-tips clear">
+                <div class="left">
+                    <h4 class="cursor">
+                        <span class="recommend-type tab-active-sm">热门目的地</span>
+                        <span class="recommend-type">热门赛事</span>
+                    </h4>
+                    <div class="tags">
+                        <ul class="tags-animate clear">
+                            <li>
+                                <span>新加坡</span><span>美国</span><span>新加坡</span><span>美国</span><span>新加坡</span><span>美国</span>
+                                <span>新加坡</span><span>美国</span><span>新加坡</span>
+                                <span>美国</span><span>美国</span><span>新加坡</span><span>美国</span><span>新加坡</span><span>美国</span>
+                                <span>美国</span><span>美国</span><span>美国</span><span>美国</span><span>美国</span><span>美国</span><span>美国</span><span>美国</span>
+                            </li>
+                            <li>
+                                <span>新加坡</span><span>美国</span><span>新加坡</span>
+                                <span>美国</span><span>新加坡</span><span>美国</span>
+                                <span>新加坡</span><span>美国</span><span>新加坡</span>
+                                <span>美国</span><span>美国</span><span>新加坡</span>
+                                <span>美国</span><span>新加坡</span><span>美国</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="top">
+                        <h4 class="cA8">历史记录</h4>
+                        <div class="history">
+                            <p>红酒马拉松</p>
+                        </div>
+                    </div>
+                    <div class="down">
+                        <h4 class="cA8">热门搜索</h4>
+                        <div class="hot-search">
+                            <p>红酒马拉松</p>
+                            <p>新加坡日落马拉松</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <!--广告位-->
+        <ul class="ad clear">
+            <li><img src="../public/img/view_one.jpg" alt=""></li>
+            <li><img src="../public/img/view_two.jpg" alt=""></li>
+            <li><img src="../public/img/view_three.jpg" alt=""></li>
+            <li><img src="../public/img/three.jpg" alt=""></li>
+        </ul>
+        <div class="match clear">
+            <input type="radio" id="matchOne" name="match-tabs" checked>
+            <label for="matchOne" class="tab-left font24">赛事动态</label>
+            <input type="radio" id="matchTwo" name="match-tabs">
+            <label for="matchTwo" class="tab-right font24">赛事排行</label>
+
+            <div class="tab-content">
+                <ul class="left clear gradually_col3_show">
+                    <li>
+                        <h2>正在报名</h2>
+                        <p>
+                            <span class="btn match-date">3.14</span>
+                            <a href="javascript:void(0)" class="race-title">成都双遗马拉松成都双遗双都双遗双遗马拉松成马拉松成都双遗马拉松</a>
+                        </p>
+                        <p>
+                            <span class="btn match-date">3.14</span>
+                            <a href="javascript:void(0)" class="race-title">华特迪斯尼马拉松</a>
+                        </p>
+                        <p>
+                            <span class="btn match-date">3.14</span>
+                            <a href="javascript:void(0)" class="race-title">华特迪斯尼马拉松</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h2>最近比赛</h2>
+                        <p>
+                            <span class="btn match-date">3.14</span>
+                            <a href="javascript:void(0)" class="race-title">成都双遗马拉松成都双遗马拉松成都双遗马拉松</a>
+                        </p>
+                        <p>
+                            <span class="btn match-date">3.14</span>
+                            <a href="javascript:void(0)" class="race-title">华特迪斯尼马拉松</a>
+                        </p>
+                        <p>
+                            <span class="btn match-date">3.14</span>
+                            <a href="javascript:void(0)" class="race-title">华特迪斯尼马拉松</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h2>
+                            <span>赛事快讯</span>
+                            <span class="cursor">
+                                <span class="num-pag active">1</span>
+                                <span class="num-pag">2</span>
+                                <span class="num-pag">3</span>
+                                <span class="num-pag">2</span>
+                                <span class="num-pag">3</span>
+                            </span>
+                        </h2>
+                        <div class="news">
+                            <div class="news-animate clear">
+                                <dl class="clear">
+                                    <dt>
+                                        <a href="javascript:"><img src="../public/img/one.jpg" alt=""></a>
+                                    </dt>
+                                    <dd>
+                                        <p><a href="javascript:" class="place font16">成都双遗</a></p>
+                                        <p class="new-brief">
+                                            <a class="red" href="javascript:void(0)">组委会临时决定暂停这场比赛。</a>
+                                        </p>
+                                        <p class="news-time font12"><span class="icon-clock"></span><span class="time">2016-03-22 11:20</span></p>
+                                    </dd>
+                                </dl>
+                                <dl class="clear">
+                                    <dt>
+                                        <a href="javascript:"><img src="../public/img/one.jpg" alt=""></a>
+
+                                    </dt>
+                                    <dd>
+                                        <p><a href="javascript:" class="font18">成都双遗</a></p>
+                                        <p class="new-brief">
+                                            <a class="red" href="javascript:void(0)">组委会临时决定暂停这场比赛。</a>
+                                        </p>
+                                        <p class="news-time font12"><span class="icon-clock"></span><span class="time">2016-03-22 11:20</span></p>
+                                    </dd>
+                                </dl>
+                                <dl class="clear">
+                                    <dt>
+                                        <img src="../public/img/one.jpg" alt="">
+                                    </dt>
+                                    <dd>
+                                        <p>成都双遗</p>
+                                        <p class="new-brief">
+                                            <a class="red" href="javascript:void(0)">组委会临时决定暂停这场比赛。</a>
+                                        </p>
+                                        <p class="news-time font12"><span class="icon-clock"></span><span class="time">2016-03-22 11:20</span></p>
+                                    </dd>
+                                </dl>
+                                <dl class="clear">
+                                    <dt>
+                                        <img src="../public/img/one.jpg" alt="">
+                                    </dt>
+                                    <dd>
+                                        <p>成都双遗</p>
+                                        <p class="new-brief">
+                                            <a class="red" href="javascript:void(0)">组委会临时决定暂停这场比赛。</a>
+                                        </p>
+                                        <p class="news-time font12"><span class="icon-clock"></span><span class="time">2016-03-22 11:20</span></p>
+                                    </dd>
+                                </dl>
+                                <dl class="clear">
+                                    <dt>
+                                        <img src="../public/img/one.jpg" alt="">
+                                    </dt>
+                                    <dd>
+                                        <p>成都双遗</p>
+                                        <p class="new-brief">
+                                            <a class="red" href="javascript:void(0)">组委会临时决定暂停这场比赛。</a>
+                                        </p>
+                                        <p class="news-time font12"><span class="icon-clock"></span><span class="time">2016-03-22 11:20</span></p>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="right clear gradually_col3_show">
+                    <li>
+                        <h2>最值得跑</h2>
+                        <p>
+                            <span class="btn match-ranking">Top 1</span>
+                            <a href="javascript:void(0)" class="race-title">成都双遗马拉松成都双遗马拉松成都双遗马拉松</a>
+                        </p>
+                        <p>
+                            <span class="btn match-date">Top 2</span>
+                            <a href="javascript:void(0)" class="race-title">华特迪斯尼马拉松</a>
+                        </p>
+                        <p>
+                            <span class="btn match-ranking">Top 3</span>
+                            <a href="javascript:void(0)" class="race-title">华特迪斯尼马拉松</a>
+                        </p>
+                        <p>
+                            <span class="btn match-ranking">Top 1</span>
+                            <a href="javascript:void(0)" class="race-title">成都双遗马拉松成都双遗马拉松成都双遗马拉松</a>
+                        </p>
+                        <p>
+                            <span class="btn match-ranking">Top 1</span>
+                            <a href="javascript:void(0)" class="race-title">成都双遗马拉松成都双遗马拉松成都双遗马拉松</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h2>报名最多</h2>
+                        <p>
+                            <span class="btn match-ranking">Top 1</span>
+                            <a href="javascript:void(0)" class="race-title">成都双遗马拉松成都双遗马拉松成都双遗马拉松</a>
+                        </p>
+                        <p>
+                            <span class="btn match-date">Top 2</span>
+                            <a href="javascript:void(0)" class="race-title">华特迪斯尼马拉松</a>
+                        </p>
+                        <p>
+                            <span class="btn match-date">Top 3</span>
+                            <a href="javascript:void(0)" class="race-title">华特迪斯尼马拉松</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h2>近期热议</h2>
+                        <p>
+                            <span class="btn match-date">Top 1</span>
+                            <a href="javascript:void(0)" class="race-title">成都双遗马拉松成都双遗马拉松成都双遗马拉松</a>
+                        </p>
+                        <p>
+                            <span class="btn match-date">Top 2</span>
+                            <a href="javascript:void(0)" class="race-title">华特迪斯尼马拉松</a>
+                        </p>
+                        <p>
+                            <span class="btn match-date">Top 3</span>
+                            <a href="javascript:void(0)" class="race-title">华特迪斯尼马拉松</a>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--文章-->
+<div class="article">
+    <div class="article-wrap">
+        <ul class="article-list clear gradually_col3_show">
+            <li>
+                <a href="javascript:">
+                    <h3>
+                        <span>跑完纪念碑跑完纪念碑碑跑完纪念碑跑完纪念碑碑跑完纪念碑跑完纪念碑碑跑完纪念碑跑完纪念碑碑</span>
+                        <span href="javascript:" class="btn font14">阅读全文</span>
+                    </h3>
+                    <p class="brief font13">跑完纪念碑谷，你也得不到这块奖牌，跑完纪念碑谷跑完纪念碑谷，念碑谷，你也得不到这块奖牌，跑完纪念碑谷跑完纪念碑谷你也得不到这块奖牌，跑完纪念碑谷</p>
+                </a>
+                <dl class="writer-info clear">
+                    <dt class="head-img">
+                        <img src="../public/img/view_three.jpg" alt="">
+                    </dt>
+                    <dd>
+                        <h4>小苏快跑</h4>
+                        <p class="time">发表于2016-03-22 11：20</p>
+                    </dd>
+                </dl>
+            </li>
+            <li>
+                <h3>
+                    <span>跑完纪念碑谷，你也得不到这块奖牌，跑完纪念碑谷</span>
+                    <a href="javascript:" class="btn font14">阅读全文</a>
+                </h3>
+                <p class="brief font13">跑完纪念碑谷，你也得不到这块奖牌，跑完纪念碑谷跑完纪念碑谷，你也得不到这块奖牌，跑完纪念碑谷</p>
+                <dl class="writer-info clear">
+                    <dt class="head-img">
+                        <img src="../public/img/view_three.jpg" alt="">
+                    </dt>
+                    <dd>
+                        <h4>小苏快跑</h4>
+                        <p class="time">发表于2016-03-22 11：20</p>
+                    </dd>
+                </dl>
+            </li>
+            <li>
+                <h3>
+                    <span>跑完纪念碑谷，你也得不到这块奖牌，跑完纪念碑谷</span>
+                    <a href="javascript:" class="btn font14">阅读全文</a>
+                </h3>
+                <p class="brief font13">跑完纪念碑谷，你也得不到这块奖牌，跑完纪念碑谷跑完纪念碑谷，你也得不到这块奖牌，跑完纪念碑谷</p>
+                <dl class="writer-info clear">
+                    <dt class="head-img">
+                        <img src="../public/img/view_three.jpg" alt="">
+                    </dt>
+                    <dd>
+                        <h4>小苏快跑</h4>
+                        <p class="time">发表于2016-03-22 11：20</p>
+                    </dd>
+                </dl>
+            </li>
+        </ul>
+        <ul class="article-list clear gradually_col3_show" style="display: none">
+            <li>
+                <h3>
+                    <span>跑完纪念碑谷，你也得不到这块奖牌，跑完纪念碑谷</span>
+                    <a href="javascript:" class="btn font14">阅读全文</a>
+                </h3>
+                <p class="brief font13">跑完纪念碑谷，你也得不到这块奖牌，跑完纪念碑谷跑完纪念碑谷，你也得不到这块奖牌，跑完纪念碑谷</p>
+                <dl class="writer-info clear">
+                    <dt class="head-img">
+                        <img src="../public/img/view_three.jpg" alt="">
+                    </dt>
+                    <dd>
+                        <h4>小苏快跑</h4>
+                        <p class="time">发表于2016-03-22 11：20</p>
+                    </dd>
+                </dl>
+            </li>
+            <li>
+                <h3>
+                    <span>跑完纪念碑谷，你也得不到这块奖牌，跑完纪念碑谷</span>
+                    <a href="javascript:" class="btn font14">阅读全文</a>
+                </h3>
+                <p class="brief font13">跑完纪念碑谷，你也得不到这块奖牌，跑完纪念碑谷跑完纪念碑谷，你也得不到这块奖牌，跑完纪念碑谷</p>
+                <dl class="writer-info clear">
+                    <dt class="head-img">
+                        <img src="../public/img/view_three.jpg" alt="">
+                    </dt>
+                    <dd>
+                        <h4>小苏快跑</h4>
+                        <p class="time">发表于2016-03-22 11：20</p>
+                    </dd>
+                </dl>
+            </li>
+            <li>
+                <h3>
+                    <span>跑完纪念碑谷，你也得不到这块奖牌，跑完纪念碑谷</span>
+                    <a href="javascript:" class="btn font14">阅读全文</a>
+                </h3>
+                <p class="brief font13">跑完纪念碑谷，你也得不到这块奖牌，跑完纪念碑谷跑完纪念碑谷，你也得不到这块奖牌，跑完纪念碑谷</p>
+                <dl class="writer-info clear">
+                    <dt class="head-img">
+                        <img src="../public/img/view_three.jpg" alt="">
+                    </dt>
+                    <dd>
+                        <h4>小苏快跑</h4>
+                        <p class="time">发表于2016-03-22 11：20</p>
+                    </dd>
+                </dl>
+            </li>
+        </ul>
+        <ul class="article-list clear gradually_col3_show" style="display: none">
+            <li>
+                <h3>
+                    <span>跑完纪念碑谷，你也得不到这块奖牌，跑完纪念碑谷</span>
+                    <a href="javascript:" class="btn font14">阅读全文</a>
+                </h3>
+                <p class="brief font13">跑完纪念碑谷，你也得不到这块奖牌，跑完纪念碑谷跑完纪念碑谷，你也得不到这块奖牌，跑完纪念碑谷</p>
+                <dl class="writer-info clear">
+                    <dt class="head-img">
+                        <img src="../public/img/view_three.jpg" alt="">
+                    </dt>
+                    <dd>
+                        <h4>小苏快跑</h4>
+                        <p class="time">发表于2016-03-22 11：20</p>
+                    </dd>
+                </dl>
+            </li>
+            <li>
+                <h3>
+                    <span>跑完纪念碑谷，你也得不到这块奖牌，跑完纪念碑谷</span>
+                    <a href="javascript:" class="btn font14">阅读全文</a>
+                </h3>
+                <p class="brief font13">跑完纪念碑谷，你也得不到这块奖牌，跑完纪念碑谷跑完纪念碑谷，你也得不到这块奖牌，跑完纪念碑谷</p>
+                <dl class="writer-info clear">
+                    <dt class="head-img">
+                        <img src="../public/img/view_three.jpg" alt="">
+                    </dt>
+                    <dd>
+                        <h4>小苏快跑</h4>
+                        <p class="time">发表于2016-03-22 11：20</p>
+                    </dd>
+                </dl>
+            </li>
+            <li>
+                <h3>
+                    <span>跑完纪念碑谷，你也得不到这块奖牌，跑完纪念碑谷</span>
+                    <a href="javascript:" class="btn font14">阅读全文</a>
+                </h3>
+                <p class="brief font13">跑完纪念碑谷，你也得不到这块奖牌，跑完纪念碑谷跑完纪念碑谷，你也得不到这块奖牌，跑完纪念碑谷</p>
+                <dl class="writer-info clear">
+                    <dt class="head-img">
+                        <img src="../public/img/view_three.jpg" alt="">
+                    </dt>
+                    <dd>
+                        <h4>小苏快跑</h4>
+                        <p class="time">发表于2016-03-22 11：20</p>
+                    </dd>
+                </dl>
+            </li>
+        </ul>
+    </div>
+    <!--导航器-->
+    <div class="pagnitions">
+        <span class="pag-button active animate"></span>
+        <span class="pag-button animate"></span>
+        <span class="pag-button animate"></span>
+    </div>
+    <a class="more-article font20" href="javascript:void(0)">查看更多文章</a>
+</div>
+
+<!--跑步看世界 比赛入口-->
+<div class="run-tour">
+    <div class="header clear">
+        <h1 class="title font28">跑步看世界</h1>
+        <ul class="font18">
+            <li class="tab-active"><a class="blue" href="javascript:void(0)">推荐</a></li>
+            <li><a href="javascript:void(0)">五一假期</a></li>
+            <li><a href="javascript:void(0)">六大满贯</a></li>
+            <li><a href="javascript:void(0)">发现之旅</a></li>
+            <li><a href="javascript:void(0)">海岛马拉松</a></li>
+        </ul>
+    </div>
+    <div class="run-tour-content">
+        <ul class="clear">
+            <li>
+                <div class="img-box">
+                    <img src="../public/img/three.jpg" alt="" class="scale">
+                    <div class="price"><span class="font24">12399</span>元</div>
+                </div>
+                <div class="info">
+                    <h3>婆罗洲马婆罗洲马拉松5天4晚 跑跑旅婆罗洲马拉松5天4晚 跑跑旅行团行团团</h3>
+                    <p class="time">
+                        <span>2016-4-10</span>
+                        <span>多地出发</span>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="img-box">
+                    <img src="../public/img/three.jpg" alt="" class="scale">
+                    <div class="price"><span class="font24">12399</span>元</div>
+                </div>
+                <div class="info">
+                    <h3>婆罗洲马拉松5天4晚 跑松5天4晚 跑跑旅婆罗洲马拉松5天4晚 松5天4晚 跑跑旅婆罗洲马拉松5天4晚 跑旅行团</h3>
+                    <p class="time">
+                        <span>2016-4-10</span>
+                        <span>多地出发</span>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="img-box">
+                    <img src="../public/img/three.jpg" alt="" class="scale">
+                    <div class="price"><span class="font24">12399</span>元</div>
+                </div>
+                <div class="info">
+                    <h3>婆罗洲马拉松5天4晚 跑跑旅行团</h3>
+                    <p class="time">
+                        <span>2016-4-10</span>
+                        <span>多地出发</span>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="img-box">
+                    <img src="../public/img/three.jpg" alt="" class="scale">
+                    <div class="price"><span class="font24">12399</span>元</div>
+                </div>
+                <div class="info">
+                    <h3>婆罗洲马拉松5天4晚 跑跑旅行团</h3>
+                    <p class="time">
+                        <span>2016-4-10</span>
+                        <span>多地出发</span>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="img-box">
+                    <img src="../public/img/three.jpg" alt="" class="scale">
+                    <div class="price"><span class="font24">12399</span>元</div>
+                </div>
+                <div class="info">
+                    <h3>婆罗洲马拉松5天4晚 跑跑旅行团</h3>
+                    <p class="time">
+                        <span>2016-4-10</span>
+                        <span>多地出发</span>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="img-box">
+                    <img src="../public/img/three.jpg" alt="" class="scale">
+                    <div class="price"><span class="font24">12399</span>元</div>
+                </div>
+                <div class="info">
+                    <h3>婆罗洲马拉松5天4晚 跑跑旅行团</h3>
+                    <p class="time">
+                        <span>2016-4-10</span>
+                        <span>多地出发</span>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="img-box">
+                    <img src="../public/img/three.jpg" alt="" class="scale">
+                    <div class="price"><span class="font24">12399</span>元</div>
+                </div>
+                <div class="info">
+                    <h3>婆罗洲马拉松5天4晚 跑跑旅行团</h3>
+                    <p class="time">
+                        <span>2016-4-10</span>
+                        <span>多地出发</span>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <a class="more-activity font20" href="javascript:void(0)">查看更多跑步旅行</a>
+</div>
+
+<!--赛事评论-->
+<div class="comment">
+    <div class="main clear">
+        <div class="other-users">
+            <h1>发现42旅星人 <span id="changeComments" class="font16"> <i class="icon-refresh"></i> 换一换</span></h1>
+            <ul class="gradually_col2_show">
+                <li>
+                    <a class="head-img">
+                        <img src="../public/img/one.jpg" alt="">
+                    </a>
+                    <div class="user-info">
+                        <h2>
+                            <a href="javascript:(0)">小苏快跑</a>
+                            <span class="fr btn-gray font16">+关注</span>
+                        </h2>
+                        <p class="fans-num font14">30粉丝</p>
+                        <p class="level">小小旅行家</p>
+                    </div>
+                </li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="new-comment">
+            <h1>最新赛事评论 <span id="commentNow" class="font16"> <i class="icon-edit"></i> 我要评论</span></h1>
+            <div class="roll-box">
+                <ul>
+                    <li>
+                        <a class="head-img">
+                            <img src="../public/img/one.jpg" alt="">
+                            <h3 class="user-name">小苏快跑</h3>
+                        </a>
+                        <div class="comment-info">
+                            <p>评论了 <a href="javascript:void(0)">赫尔辛基城市马拉松</a></p>
+                            <div class="star-wrap">
+                                <div class="star">
+                                    <div class="jd" style="width: 80%;"></div>
+                                </div>
+                                <div class="score">8.0</div>
+                            </div>
+                            <p class="font13 com-content">下着大雨，冻死猫下着大雨，冻死猫咪了下着大雨，冻死猫咪了下着大雨，冻死猫咪了咪了。。。中途崩溃都在走路，最后费劲力气才跑进四小时。可能俺是外国人的缘故，跑进体育场的时候，大喇叭在广播俺的名字，很爽，哈哈哈哈哈。。。</p>
+                        </div>
+                    </li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--一键置顶-->
+<div class="back-to-top"></div>
+<footer>
+    <div class="footer-content">
+        <ul class="clear">
+            <li class="logo">
+                <img src="../public/img/footer-logo.png" alt="">
+            </li>
+            <li>
+                <h1>关于42旅</h1>
+                <p><a href="javascript:void(0)">服务条款</a></p>
+                <p><a href="javascript:void(0)">知识产权申明</a></p>
+                <p><a href="javascript:void(0)">隐私保护申明</a></p>
+            </li>
+            <li>
+                <h1>消费者保障</h1>
+                <p><a href="javascript:void(0)">退款申明</a></p>
+            </li>
+            <li>
+                <h1>服务电话</h1>
+                <a href="javascript:void(0)">400-015-6830</a>
+            </li>
+            <li class="wechat">
+                <img src="http://42trip.com/public/img/icon/about_weixincode.png" alt="二维码">
+                <p>关注微信订阅号</p>
+            </li>
+        </ul>
+        <dl class="down-links clear">
+            <dt>友情链接</dt>
+            <dd>
+                <a href="javascript:void(0)">跑吧</a>
+                <a href="javascript:void(0)">虎扑跑步</a>
+                <a href="javascript:void(0)">益跑网</a>
+                <a href="javascript:void(0)">极致玩家</a>
+                <a href="javascript:void(0)">最酷运动</a>
+                <a href="javascript:void(0)">跑吧</a>
+                <a href="javascript:void(0)">虎扑跑步</a>
+                <a href="javascript:void(0)">益跑网</a>
+                <a href="javascript:void(0)">极致玩家</a>
+                <a href="javascript:void(0)">最酷运动</a>
+                <a href="javascript:void(0)">跑吧跑吧跑吧</a>
+                <a href="javascript:void(0)">虎扑跑步</a>
+                <a href="javascript:void(0)">益跑网</a>
+                <a href="javascript:void(0)">极致玩家</a>
+                <a href="javascript:void(0)">最酷运动</a>
+            </dd>
+        </dl>
+        <p class="copy-right">© 2016 42trip.com  沪ICP备13042209号</p>
+    </div>
+</footer>
+<script src="../public/libs/jquery/jquery-2.0.3.min.js"></script>
+<script src="../public/libs/jquery/jquery.easing.min.js"></script>
+<script src="../public/libs/swiper/swiper.min.js"></script>
+<script src="../public/js/extend.js"></script>
+<script src="../public/js/globle.js"></script>
+<script src="../public/js/index.js"></script>
+<script>
+    _index.init();
+</script>
+</body>
+</html>
